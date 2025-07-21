@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="5" passed="4" failed="1" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-05-16T15:41:04 IST" name="Surefire suite" finished-at="2025-05-16T15:42:02 IST" duration-ms="58066">
+    <groups>
+      <group name="ErrorHandle">
+        <method signature="ErrorValidationsTest.productCatalogueValidation()[pri:0, instance:FrameWorkTraining.Tests.ErrorValidationsTest@4b5d6a01]" name="productCatalogueValidation" class="FrameWorkTraining.Tests.ErrorValidationsTest"/>
+      </group> <!-- ErrorHandle -->
+    </groups>
+    <test started-at="2025-05-16T15:41:04 IST" name="Surefire test" finished-at="2025-05-16T15:42:02 IST" duration-ms="58066">
+      <class name="FrameWorkTraining.Tests.ErrorValidationsTest">
+        <test-method is-config="true" signature="loginApplication()[pri:0, instance:FrameWorkTraining.Tests.ErrorValidationsTest@4b5d6a01]" started-at="2025-05-16T15:41:04 IST" name="loginApplication" finished-at="2025-05-16T15:41:07 IST" duration-ms="2495" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginApplication -->
+        <test-method signature="loginError()[pri:0, instance:FrameWorkTraining.Tests.ErrorValidationsTest@4b5d6a01]" started-at="2025-05-16T15:41:07 IST" name="loginError" finished-at="2025-05-16T15:41:07 IST" duration-ms="351" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [Incorrect email or password.] but found []]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [Incorrect email or password.] but found []
+at org.testng.Assert.fail(Assert.java:111)
+at org.testng.Assert.failNotEquals(Assert.java:1590)
+at org.testng.Assert.assertEqualsImpl(Assert.java:150)
+at org.testng.Assert.assertEquals(Assert.java:132)
+at org.testng.Assert.assertEquals(Assert.java:656)
+at org.testng.Assert.assertEquals(Assert.java:666)
+at FrameWorkTraining.Tests.ErrorValidationsTest.loginError(ErrorValidationsTest.java:20)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+at org.testng.TestRunner.privateRun(TestRunner.java:741)
+at org.testng.TestRunner.run(TestRunner.java:616)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:155)
+at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:169)
+at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:88)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:137)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginError -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:FrameWorkTraining.Tests.ErrorValidationsTest@4b5d6a01]" started-at="2025-05-16T15:41:07 IST" name="teardown" finished-at="2025-05-16T15:41:12 IST" duration-ms="5187" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="loginApplication()[pri:0, instance:FrameWorkTraining.Tests.ErrorValidationsTest@4b5d6a01]" started-at="2025-05-16T15:41:12 IST" name="loginApplication" finished-at="2025-05-16T15:41:16 IST" duration-ms="3308" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginApplication -->
+        <test-method signature="productCatalogueValidation()[pri:0, instance:FrameWorkTraining.Tests.ErrorValidationsTest@4b5d6a01]" started-at="2025-05-16T15:41:16 IST" name="productCatalogueValidation" finished-at="2025-05-16T15:41:20 IST" duration-ms="4064" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- productCatalogueValidation -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:FrameWorkTraining.Tests.ErrorValidationsTest@4b5d6a01]" started-at="2025-05-16T15:41:20 IST" name="teardown" finished-at="2025-05-16T15:41:25 IST" duration-ms="5333" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- FrameWorkTraining.Tests.ErrorValidationsTest -->
+      <class name="FrameWorkTraining.Tests.SubmitOrderTest">
+        <test-method is-config="true" signature="loginApplication()[pri:0, instance:FrameWorkTraining.Tests.SubmitOrderTest@418e7838]" started-at="2025-05-16T15:41:25 IST" name="loginApplication" finished-at="2025-05-16T15:41:28 IST" duration-ms="3304" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginApplication -->
+        <test-method signature="Submit1_Order()[pri:0, instance:FrameWorkTraining.Tests.SubmitOrderTest@418e7838]" started-at="2025-05-16T15:41:28 IST" name="Submit1_Order" finished-at="2025-05-16T15:41:33 IST" duration-ms="5061" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Submit1_Order -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:FrameWorkTraining.Tests.SubmitOrderTest@418e7838]" started-at="2025-05-16T15:41:33 IST" name="teardown" finished-at="2025-05-16T15:41:39 IST" duration-ms="5212" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="loginApplication()[pri:0, instance:FrameWorkTraining.Tests.SubmitOrderTest@418e7838]" started-at="2025-05-16T15:41:39 IST" name="loginApplication" finished-at="2025-05-16T15:41:42 IST" duration-ms="3810" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginApplication -->
+        <test-method signature="Submit_Order()[pri:0, instance:FrameWorkTraining.Tests.SubmitOrderTest@418e7838]" started-at="2025-05-16T15:41:42 IST" name="Submit_Order" finished-at="2025-05-16T15:41:47 IST" duration-ms="5045" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Submit_Order -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:FrameWorkTraining.Tests.SubmitOrderTest@418e7838]" started-at="2025-05-16T15:41:47 IST" name="teardown" finished-at="2025-05-16T15:41:53 IST" duration-ms="5635" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="loginApplication()[pri:0, instance:FrameWorkTraining.Tests.SubmitOrderTest@418e7838]" started-at="2025-05-16T15:41:53 IST" name="loginApplication" finished-at="2025-05-16T15:41:56 IST" duration-ms="3428" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginApplication -->
+        <test-method signature="orderHistoryTest()[pri:0, instance:FrameWorkTraining.Tests.SubmitOrderTest@418e7838]" started-at="2025-05-16T15:41:56 IST" name="orderHistoryTest" finished-at="2025-05-16T15:41:57 IST" depends-on-methods="FrameWorkTraining.Tests.SubmitOrderTest.Submit_Order" duration-ms="644" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- orderHistoryTest -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:FrameWorkTraining.Tests.SubmitOrderTest@418e7838]" started-at="2025-05-16T15:41:57 IST" name="teardown" finished-at="2025-05-16T15:42:02 IST" duration-ms="5151" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- FrameWorkTraining.Tests.SubmitOrderTest -->
+    </test> <!-- Surefire test -->
+  </suite> <!-- Surefire suite -->
+</testng-results>
